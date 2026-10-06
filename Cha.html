@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Greeting</title>
+    <link rel="stylesheet" href="Birthday.css">
+</head>
+<body>
+     <section class="greeting">
+        <h1>Happy Birthday TWIN!</h1>
+        <img src="Cha1.jpg" alt="Birthday Image" class="birthday-image" width="300px">
+        <form id="surprise-form">
+
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Enter your age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="message">Enter your birthday message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" id="submit-button"><a href="Surprise.html">Open Surprise 💛</a></button>
+        </form>
+    <div class="container" id="welcome-screen">
+        <audio id="bg-music" loop>
+            <source src="./music.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <script src="Greetings.js"></script>
+</body>
+</html>
